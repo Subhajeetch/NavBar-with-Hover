@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); /* font */
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 
-.container {
+.navbar {
   height: 800px;
   width: 250px;
   background-color: #D5D5D5;
@@ -27,7 +27,7 @@ body {
   padding-top: 15px;
 }
 
-.page-cont {
+.section-container {
   height: 60px;
   display: flex;
   align-items: center;
@@ -36,21 +36,21 @@ body {
   cursor: pointer;
 }
 
-.page-icon {
+.section-icon {
   height: 36px;
   width: 36px;
   filter: grayscale(100%) brightness(20%);
   margin-right: 20px;
 }
 
-.page-title {
+.section-title {
   font-size: 19px;
   font-weight: 400;
 }
 
 
 
-.page-cont:hover {
+.section-container:hover {
   background-color: #E1E1E1;
   border-left: 3px solid #4E4E4E;
 }
