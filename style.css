@@ -33,6 +33,7 @@ body {
   align-items: center;
   padding-left: 20px;
   border-left: 3px solid #D5D5D5;
+  border-radius: 3px;
   cursor: pointer;
 }
 
